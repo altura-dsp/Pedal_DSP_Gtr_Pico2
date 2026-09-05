@@ -1,0 +1,73 @@
+# alias_map.yaml — 1_Pedal_DSP_GTR
+# Piedra Rosetta: <nombre_lógico Python> → <Referencia_Local física del inventario_bruto.csv>
+# Regla (rules/12 §2): toda parte que wiring_logic.py consume vía factory.parts['<key>']
+# DEBE existir aquí como Key. Las réplicas múltiples (NeoPixel×8, ferrites×6, TVS, pasivos
+# repetidos) se instancian con Part() directo en wiring_logic.py (NO via factory) y por eso
+# no requieren alias individual; su Referencia_Local base queda listada para el BOM físico.
+
+# --- ITERATOR_BASE_* (exigidos por tools/component_library.py _build_encoders) ---
+# El motor fuerza ENC_1..ENC_7 + redes R_1k/R_10k/C_100n + 4×74HC14 (deuda iterador 🟨).
+# wiring_logic.py cablea ENC_1..ENC_4 (3 pedales + ENC_PARA); ENC_5..ENC_7 sobrantes → autolimpieza.
+ITERATOR_BASE_ENCODER: "EC11"
+ITERATOR_BASE_R_1K: "R_1k"
+ITERATOR_BASE_R_10K: "R_10k"
+ITERATOR_BASE_C_100N: "C_100n"
+ITERATOR_BASE_HC14: "74HC14"
+
+# --- MCU + Codecs ---
+MCU: "MCU_RP2350"
+U_ADC: "U_ADC"
+U_DAC: "U_DAC"
+
+# --- OpAmps (body único DIP-8 — Ley 1, ruteo por pin físico absoluto) ---
+U1: "U1_TL072"        # preamp guitarra L+R (TL072)
+U2: "U2_NE5532"       # salida línea estéreo L+R (NE5532)
+U3: "U3_NJM4556A"     # auriculares high-current (NJM4556A)
+
+# --- Reguladores / Potencia ---
+U4: "U4_LT1054"       # inversor conmutado rail negativo (D.4)
+U5: "U5_AP2112K"      # LDO 3.3V audio aislado (D.3 carga 4.7k)
+U6: "U6_BUCK"         # Buck step-down 5V (🟨 chip a definir en enriquecido)
+
+# --- Lógica complementaria ---
+U7A: "U7_HC14_A"      # hex Schmitt debouncing encoders (74HC14)
+U7B: "U7_HC14_B"      # 2º hex Schmitt (footswitches, opcional)
+U8: "U8_HEF4053BT"    # Safe Bypass triple SPDT (HEF4053BT)
+
+# --- Electromecánicos ---
+K1: "K1_G5V1"         # relé mute canal L (G5V-1, Ley 5)
+K2: "K2_G5V1"         # relé mute canal R (G5V-1, Ley 5)
+JACK_IN_L: "JACK_IN_L"
+JACK_IN_R: "JACK_IN_R"
+JACK_OUT_L: "JACK_OUT_L"
+JACK_OUT_R: "JACK_OUT_R"
+JACK_HP: "JACK_HP"
+JACK_DC: "JACK_DC"
+
+# --- Transistores / Diodos ---
+Q1: "Q1_2N3904"       # NPN drive bobina relé (🟨 símbolo transistor)
+Q2: "Q2_IRLML6401"    # MOSFET-P protección inversión DC
+D1: "D1_1N4148"       # flyback relé K1
+D2: "D2_1N4148"       # flyback relé K2
+
+# --- TVS (Regla 13 ESD/RFI universal en conectores) ---
+TVS_IN_L: "TVS_IN_L"
+TVS_IN_R: "TVS_IN_R"
+TVS_OUT_L: "TVS_OUT_L"
+TVS_OUT_R: "TVS_OUT_R"
+TVS_HP: "TVS_HP"
+TVS_USB: "TVS_USB"
+TVS_DC: "TVS_DC"
+
+# --- Display / UI principales ---
+OLED: "OLED_SSD1306"
+POT_MASTER: "POT_MASTER"   # GPIO26 (ADC0) — Master Volume
+POT_EXPR: "POT_EXPR"       # GPIO27 (ADC1) — Expression Pedal
+
+# --- Inductor filtro entrada ---
+L1: "L1_4u7"
+
+# --- Alias base para réplicas BOM-only (wire_circuit crea Part() directo) ---
+NEOPIXEL: "LED_NEOPIXEL"   # 8 LEDs en cascada (se instancian vía Part('LED','WS2812B'))
+FB: "FB_BLM18"             # 6 ferrite beads (Regla 13, una por jack externo)
+FS: "FS_SW"                # 4 footswitches SPST (creados vía Part('Switch','SW_SPST'))

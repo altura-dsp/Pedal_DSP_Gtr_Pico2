@@ -1,0 +1,3045 @@
+(export 
+  (version "D")
+  (design
+    (source "main_build.py")
+    (date "08/25/2026 01:09 PM")
+    (tool "SKiDL (2.2.3)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "..\1_Pedal_DSP_GTR\Hardware_PCB\main_build.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "C1")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "HmpXD2xU5Z")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:152"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "82ec58f4-c1b4-5665-9001-11b960e8977e"))
+    (comp
+      (ref "C10")
+      (value "47pF_C0G")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Eii0kUZJQT")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:103"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "b43214f0-b188-5e01-90a6-5e297bf5f34d"))
+    (comp
+      (ref "C11")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "KsgDfz3EGA")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:117"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "7526e816-4164-55f4-9abb-652e3c03c60a"))
+    (comp
+      (ref "C12")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7NLdaKBkvj")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:117"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "9f9ef5b5-c95b-5f19-8482-d187bcf9c242"))
+    (comp
+      (ref "C13")
+      (value "1nF_C0G")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "S2YZZRcvIA")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:123"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8d398deb-7cab-5cbb-9b3c-09ef2cea0721"))
+    (comp
+      (ref "C14")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "mmMSC7493Y")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:138"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "3c9e6994-0d0a-5fbe-8de2-20d4a1a6722a"))
+    (comp
+      (ref "C15")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "vqyVT1vyfa")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:209"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "ac17cd2a-783d-595a-8009-707d26afcea7"))
+    (comp
+      (ref "C16")
+      (value "47pF_C0G")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Ein4ISeOpD")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:193"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "f59bd350-9574-581e-85ee-e3b874df6137"))
+    (comp
+      (ref "C17")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "pPcEZeObVA")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:209"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8c57eb8a-67e3-5a0d-9e1d-01c9c36daa97"))
+    (comp
+      (ref "C18")
+      (value "47pF_C0G")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "cW6PTtt39C")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:193"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "f3ca3b3c-4a68-51e9-935c-823370aad943"))
+    (comp
+      (ref "C19")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "7jZcFtuQnt")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:232"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "2b201d10-6e46-546d-ace2-bb7c10161aa7"))
+    (comp
+      (ref "C2")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "l1QjEm0fGp")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:152"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "1796972d-91a8-5dfe-b58f-971db7a586d5"))
+    (comp
+      (ref "C20")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "b70irvc1C5")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:265"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "e9888548-1545-5533-8a84-f121ca690186"))
+    (comp
+      (ref "C21")
+      (value "10nF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "QGVB1zH2_t")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:279"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "3ee8a633-9a11-57a7-8717-af580644e0ea"))
+    (comp
+      (ref "C22")
+      (value "4.7uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "A7kdfj7QhV")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:280"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "c56a2329-eb14-526b-9f3c-aecbe64373da"))
+    (comp
+      (ref "C23")
+      (value "100uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "n2OSYl6nOh")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:329"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "b2f1695c-4589-5a97-b6e5-f9aea996ef6c"))
+    (comp
+      (ref "C3")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "2J8hmCr_sY")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:152"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8aef2ee1-71ae-5581-b86b-c981ffe0f0bb"))
+    (comp
+      (ref "C4")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "MqdBIFSGVE")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:152"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "4c9d4e91-df94-565c-9d0a-2722965e0ab5"))
+    (comp
+      (ref "C5")
+      (value "47pF_C0G")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "cBn0VhtcSd")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:103"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8c0d8aa0-9212-56ce-806b-b6bbc276a8d2"))
+    (comp
+      (ref "C6")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "0ec_WFWv6c")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:117"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "09daf3a2-7c29-5798-bc64-35f516c21c7d"))
+    (comp
+      (ref "C7")
+      (value "100nF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "qLkRJ3VvJn")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:117"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "30e71508-930b-5b64-b991-5a175539bafa"))
+    (comp
+      (ref "C8")
+      (value "1nF_C0G")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "AXqKICqBzk")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:123"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "514de83a-b7a1-56e4-8ca0-0267ca95c21e"))
+    (comp
+      (ref "C9")
+      (value "10uF")
+      (description "Unpolarized capacitor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Unpolarized capacitor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "SpPmLFXAGv")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:138"))
+      (libsource
+        (lib "Device")
+        (part "C"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "03a764bf-b181-5378-a6f1-52eba4bbd121"))
+    (comp
+      (ref "D11")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "bis_r84CgS")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "56e0a0bc-53e3-5b6e-a2e6-163bdb720080"))
+    (comp
+      (ref "D12")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "TkiuTkw82m")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "4afe1855-d695-5382-996e-707bfa6ae290"))
+    (comp
+      (ref "D13")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "Lab8OyCo2a")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "667313dc-66f2-5dd9-b6c5-09857189039c"))
+    (comp
+      (ref "D14")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "0t5N7zY2MZ")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "254f5b8e-e5a4-5c9d-9c7b-abd4c77e108f"))
+    (comp
+      (ref "D15")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "ta8HBeB3Dl")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "751eaccf-77c2-5e74-9316-ed15530bc580"))
+    (comp
+      (ref "D16")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "JgYIwqwegW")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6ddd8f8f-3e5b-5afe-a6c0-0bde2bb96b0b"))
+    (comp
+      (ref "D17")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "0P6gb0Etwn")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "82178930-9bd6-576c-8ab3-b8d6b1905af7"))
+    (comp
+      (ref "D18")
+      (value "WS2812B")
+      (description "RGB LED with integrated controller")
+      (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (fields
+        (field
+          (name "Description") "RGB LED with integrated controller")
+        (field
+          (name "Footprint") "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+        (field
+          (name "Datasheet") "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
+        (field
+          (name "SKiDL Tag") "3kih_gJRJ4")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:331"))
+      (libsource
+        (lib "LED")
+        (part "WS2812B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "735d0d74-a017-5736-8c5a-b6dce8e19601"))
+    (comp
+      (ref "D1_1N4148")
+      (value "1N4148")
+      (description "Diode")
+      (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint") "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "EOloX64WNb")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "720ef642-6c0c-502f-994a-4fe95f965a5e"))
+    (comp
+      (ref "D2_1N4148")
+      (value "1N4148")
+      (description "Diode")
+      (footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint") "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "NtANZZ7Ljs")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6c7f7be2-4544-5f2b-805c-d123f7042112"))
+    (comp
+      (ref "JACK_DC")
+      (value "JACK_DC")
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_BarrelJack:BarrelJack_Horizontal")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_BarrelJack:BarrelJack_Horizontal")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "nXL47YBWpW")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x02"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "0bf65d9b-7003-5189-8b17-a5357394b975"))
+    (comp
+      (ref "JACK_HP")
+      (value "Jack_6.35mm")
+      (description "Audio Jack, 2 Poles (Mono / TS)")
+      (footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+      (fields
+        (field
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS)")
+        (field
+          (name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "pNDhGn8cs7")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Audio")
+        (part "AudioJack2"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "cddf70c7-4cd9-5818-9398-30e1e8a6d523"))
+    (comp
+      (ref "JACK_IN_L")
+      (value "Jack_6.35mm")
+      (description "Audio Jack, 2 Poles (Mono / TS)")
+      (footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+      (fields
+        (field
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS)")
+        (field
+          (name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "NHZ734P2C7")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Audio")
+        (part "AudioJack2"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "965c6450-0674-5b48-867e-e82857b3a8d6"))
+    (comp
+      (ref "JACK_IN_R")
+      (value "Jack_6.35mm")
+      (description "Audio Jack, 2 Poles (Mono / TS)")
+      (footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+      (fields
+        (field
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS)")
+        (field
+          (name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "BGQ8o4JZkp")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Audio")
+        (part "AudioJack2"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "8ddfcd8f-833c-51e0-b8ad-e9ad817897c9"))
+    (comp
+      (ref "JACK_OUT_L")
+      (value "Jack_6.35mm")
+      (description "Audio Jack, 2 Poles (Mono / TS)")
+      (footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+      (fields
+        (field
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS)")
+        (field
+          (name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "YxoxWkOC05")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Audio")
+        (part "AudioJack2"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "18a66469-5781-5a04-aa26-3f5f26daf494"))
+    (comp
+      (ref "JACK_OUT_R")
+      (value "Jack_6.35mm")
+      (description "Audio Jack, 2 Poles (Mono / TS)")
+      (footprint "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+      (fields
+        (field
+          (name "Description") "Audio Jack, 2 Poles (Mono / TS)")
+        (field
+          (name "Footprint") "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "wkipJb2QSy")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Audio")
+        (part "AudioJack2"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "a41cfaf5-4612-53c5-8131-f362ca1bff35"))
+    (comp
+      (ref "K1_G5V1")
+      (value "G5V-1")
+      (description "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits")
+      (footprint "Relay_THT:Relay_SPDT_Omron-G5V-1")
+      (fields
+        (field
+          (name "Description") "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits")
+        (field
+          (name "Footprint") "Relay_THT:Relay_SPDT_Omron-G5V-1")
+        (field
+          (name "Datasheet") "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf")
+        (field
+          (name "SKiDL Tag") "eApTMSrCOl")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Relay")
+        (part "G5V-1"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "a44f4f4b-716d-52ee-a35b-1cfcd87fb50e"))
+    (comp
+      (ref "K2_G5V1")
+      (value "G5V-1")
+      (description "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits")
+      (footprint "Relay_THT:Relay_SPDT_Omron-G5V-1")
+      (fields
+        (field
+          (name "Description") "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits")
+        (field
+          (name "Footprint") "Relay_THT:Relay_SPDT_Omron-G5V-1")
+        (field
+          (name "Datasheet") "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf")
+        (field
+          (name "SKiDL Tag") "NezC1FXWL1")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Relay")
+        (part "G5V-1"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "617a78bd-8676-5329-a2a6-1f4fb7852a18"))
+    (comp
+      (ref "L3")
+      (value "BLM18")
+      (description "Inductor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Inductor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "PYNOR1DA0G")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:102"))
+      (libsource
+        (lib "Device")
+        (part "L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "0c634c81-d3df-5dc8-8a5e-7e85aa171ac1"))
+    (comp
+      (ref "L4")
+      (value "BLM18")
+      (description "Inductor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Inductor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "TwpKW5TQ5w")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:102"))
+      (libsource
+        (lib "Device")
+        (part "L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "a07dc88f-319b-53fd-95f5-0f6c85c0f746"))
+    (comp
+      (ref "L5")
+      (value "BLM18")
+      (description "Inductor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Inductor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "t0hqwvUHw2")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:190"))
+      (libsource
+        (lib "Device")
+        (part "L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "4a5043a7-d523-5874-8b9b-572f481505ac"))
+    (comp
+      (ref "L6")
+      (value "BLM18")
+      (description "Inductor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Inductor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "xRFCcDpiVK")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:190"))
+      (libsource
+        (lib "Device")
+        (part "L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6f341bff-8f1a-5157-9169-abba73c1dd8b"))
+    (comp
+      (ref "L7")
+      (value "BLM18")
+      (description "Inductor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Inductor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "qnx7WPa9q6")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:243"))
+      (libsource
+        (lib "Device")
+        (part "L"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "0d02d15d-71af-5282-a42f-5806da1297a2"))
+    (comp
+      (ref "MCU_RP2350")
+      (value "RP2350")
+      (description "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, no flash, 520KB SRAM, 12 PIO state machines, VQFN-80")
+      (footprint "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm")
+      (fields
+        (field
+          (name "Description") "A microcontroller by Raspberry Pi, dual CPU architecture (ARM Cortex-M33 / RISC-V Hazard3), 150MHz, no flash, 520KB SRAM, 12 PIO state machines, VQFN-80")
+        (field
+          (name "Footprint") "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm")
+        (field
+          (name "Datasheet") "https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf")
+        (field
+          (name "SKiDL Tag") "Pq89UC3_QW")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "MCU_RaspberryPi")
+        (part "RP2350B"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "f0e8d1f7-b93a-59ba-b4e5-fe83e742aa9a"))
+    (comp
+      (ref "OLED_SSD1306")
+      (value "SSD1306")
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+        (field
+          (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "uLoJRLHxzA")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector_Generic")
+        (part "Conn_01x04"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "dc9b2389-1e7e-50a1-b0f8-f5d3a3eb0e5d"))
+    (comp
+      (ref "POT_EXPR")
+      (value "100k")
+      (description "Potentiometer")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Potentiometer")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "svmcMgIuc1")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "R_Potentiometer"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "a666a653-ee78-5864-978a-e20e58a1f760"))
+    (comp
+      (ref "POT_MASTER")
+      (value "10k")
+      (description "Potentiometer")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Potentiometer")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "gPXKDa9z40")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "R_Potentiometer"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "399b0bcb-63c8-5fc6-8c5e-5bde76e8b5b0"))
+    (comp
+      (ref "Q1_2N3904")
+      (value "2N3904")
+      (description "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+      (footprint "Package_TO_SOT_THT:TO-92_Inline")
+      (fields
+        (field
+          (name "Description") "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92")
+        (field
+          (name "Footprint") "Package_TO_SOT_THT:TO-92_Inline")
+        (field
+          (name "Datasheet") "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF")
+        (field
+          (name "SKiDL Tag") "D5MXcAdU2B")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Transistor_BJT")
+        (part "2N3904"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "aa292e4f-f331-5340-999c-9091bf58d36c"))
+    (comp
+      (ref "Q2_IRLML6401")
+      (value "IRLML6401")
+      (description "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23")
+      (footprint "Package_TO_SOT_SMD:SOT-23")
+      (fields
+        (field
+          (name "Description") "-4.3A Id, -12V Vds, 50mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23")
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+        (field
+          (name "Datasheet") "https://www.infineon.com/dgdl/irlml6401pbf.pdf?fileId=5546d462533600a401535668b96d2634")
+        (field
+          (name "SKiDL Tag") "Aasz4nJCiy")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Transistor_FET")
+        (part "IRLML6401"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "864a58e3-9a6c-5e5e-932f-7247f805db11"))
+    (comp
+      (ref "R1")
+      (value "15k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "bk8o5QUAHT")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:122"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "91c372d6-6344-5ae6-894b-340aa4d612ce"))
+    (comp
+      (ref "R10")
+      (value "10k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "Xa3cRW5IJb")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:226"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "2f9bea42-7044-5e6f-944c-642fe71ff1cf"))
+    (comp
+      (ref "R11")
+      (value "22")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ienjXlqECW")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:237"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6aacef7b-6984-5c5b-9f38-6f213342e460"))
+    (comp
+      (ref "R12")
+      (value "20k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "IgPZHYBScS")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:270"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "e7d188bb-ca50-5a1a-a859-4b03db4c5eb7"))
+    (comp
+      (ref "R13")
+      (value "1k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "ZkZg14zJlB")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:290"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "0632eaee-487d-58a7-990e-5da1b1305870"))
+    (comp
+      (ref "R14")
+      (value "100k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "vhgIJ6n8fq")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:316"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "fc116ffc-95cf-5043-a3b6-629f522725f7"))
+    (comp
+      (ref "R15")
+      (value "470")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "90VyzEf0vR")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:326"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "2bdd48d6-8c5d-5211-8582-3e8ff4dcf43c"))
+    (comp
+      (ref "R2")
+      (value "4.7k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "miVhnnVaXw")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:122"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "09f09141-c83f-5b7f-a3f2-713755c44db6"))
+    (comp
+      (ref "R3")
+      (value "470k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "QtSOcTAlQ3")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:130"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "bd84a51c-481a-5fc5-8e51-2e6c68cbe9c3"))
+    (comp
+      (ref "R4")
+      (value "15k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "orpEjx_evG")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:122"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "03a151d0-acd6-5af0-ac33-72184e1540b3"))
+    (comp
+      (ref "R5")
+      (value "4.7k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "jG8FQXGVp6")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:122"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "d34b61c1-7d3b-5644-9417-fa2d4f549226"))
+    (comp
+      (ref "R6")
+      (value "470k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "fLvfKsRtqg")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:130"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "64bdf2ea-9b52-5584-8343-9731bdd37838"))
+    (comp
+      (ref "R7")
+      (value "100")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "tWIMg4zUmk")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:180"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "ab8179c9-a002-5e4e-8c74-04582d8ad317"))
+    (comp
+      (ref "R8")
+      (value "100")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "tAXrlQQZjj")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:180"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "cc031893-8065-5484-93f7-f183dc59a6b8"))
+    (comp
+      (ref "R9")
+      (value "10k")
+      (description "Resistor")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "VBZCJAOutQ")
+        (field
+          (name "SKiDL Line") "..\1_Pedal_DSP_GTR\Hardware_PCB\wiring_logic.py:226"))
+      (libsource
+        (lib "Device")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "1d5a84f3-8855-57c4-9719-c7b099876f2b"))
+    (comp
+      (ref "TVS_HP")
+      (value "P6KE12CA")
+      (description "Diode")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "km3Z5uIspd")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "3787ab38-0126-5398-b2ad-5d11db9c4de8"))
+    (comp
+      (ref "TVS_IN_L")
+      (value "P6KE18CA")
+      (description "Diode")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "zTskEwBiBU")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "e8fb1de1-9118-5b54-815b-07c259072a31"))
+    (comp
+      (ref "TVS_IN_R")
+      (value "P6KE18CA")
+      (description "Diode")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "czCWt9dIOF")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "756ce6c9-118b-5fcd-85dc-2a3b42a718e7"))
+    (comp
+      (ref "TVS_OUT_L")
+      (value "P6KE12CA")
+      (description "Diode")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "rrncbq_RY0")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "29a95426-3439-569b-baa2-8192a3240da6"))
+    (comp
+      (ref "TVS_OUT_R")
+      (value "P6KE12CA")
+      (description "Diode")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Diode")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "f7Pfh8TNTu")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Device")
+        (part "D"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "56794b45-8dda-532c-95a1-98e019d7502e"))
+    (comp
+      (ref "U1_TL072")
+      (value "TL072")
+      (description "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8")
+      (footprint "Package_DIP:DIP-8_W7.62mm")
+      (fields
+        (field
+          (name "Description") "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8")
+        (field
+          (name "Footprint") "Package_DIP:DIP-8_W7.62mm")
+        (field
+          (name "Datasheet") "http://www.ti.com/lit/ds/symlink/tl071.pdf")
+        (field
+          (name "SKiDL Tag") "fRtYQLx1CE")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Amplifier_Operational")
+        (part "TL072"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "6b5eeb50-340c-530d-9232-3543b013ce4f"))
+    (comp
+      (ref "U2_NE5532")
+      (value "NE5532")
+      (description "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
+      (footprint "Package_DIP:DIP-8_W7.62mm")
+      (fields
+        (field
+          (name "Description") "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8")
+        (field
+          (name "Footprint") "Package_DIP:DIP-8_W7.62mm")
+        (field
+          (name "Datasheet") "http://www.ti.com/lit/ds/symlink/ne5532.pdf")
+        (field
+          (name "SKiDL Tag") "LSmHq1NBuH")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Amplifier_Operational")
+        (part "NE5532"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "d4260bff-c932-5d21-80f9-833a7b43e650"))
+    (comp
+      (ref "U3_NJM4556A")
+      (value "NJM4556A")
+      (description "Dual High Current Operational Amplifier, DIP-8/DMP-8/SIP-8/SSOP-8")
+      (footprint "Package_DIP:DIP-8_W7.62mm")
+      (fields
+        (field
+          (name "Description") "Dual High Current Operational Amplifier, DIP-8/DMP-8/SIP-8/SSOP-8")
+        (field
+          (name "Footprint") "Package_DIP:DIP-8_W7.62mm")
+        (field
+          (name "Datasheet") "http://www.njr.com/semicon/PDF/NJM4556A_E.pdf")
+        (field
+          (name "SKiDL Tag") "TLfQ0bGCdR")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Amplifier_Operational")
+        (part "NJM4556A"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "b71d1f8f-ef4b-5d7c-8ea4-31d068e4340a"))
+    (comp
+      (ref "U4_LT1054")
+      (value "LT1054")
+      (description "Generic connector, single row, 01x20, script generated")
+      (footprint "Package_DIP:DIP-8_W7.62mm")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x20, script generated")
+        (field
+          (name "Footprint") "Package_DIP:DIP-8_W7.62mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "fQRtVKOIb1")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector")
+        (part "Conn_01x20_Pin"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "ca161308-5673-5e4e-b133-f13ac9b24fa6"))
+    (comp
+      (ref "U5_AP2112K")
+      (value "AP2112K")
+      (description "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5")
+      (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (fields
+        (field
+          (name "Description") "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5")
+        (field
+          (name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+        (field
+          (name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
+        (field
+          (name "SKiDL Tag") "Vmdlu8CU4r")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Regulator_Linear")
+        (part "AP2112K-3.3"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "1540a574-4865-5f3d-bdb5-009649c5758a"))
+    (comp
+      (ref "U8_HEF4053BT")
+      (value "HEF4053BT")
+      (description "Generic connector, single row, 01x20, script generated")
+      (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x20, script generated")
+        (field
+          (name "Footprint") "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "aaUST8duL5")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector")
+        (part "Conn_01x20_Pin"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "e43d2717-29a2-5e3e-bb80-1aa889fc0823"))
+    (comp
+      (ref "U_ADC")
+      (value "PCM1808")
+      (description "Generic connector, single row, 01x20, script generated")
+      (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x20, script generated")
+        (field
+          (name "Footprint") "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "NSmKZGDeNj")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector")
+        (part "Conn_01x20_Pin"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "b0a1bdeb-f009-5ee1-8c67-4fd7a492d5d0"))
+    (comp
+      (ref "U_DAC")
+      (value "PCM5102A")
+      (description "Generic connector, single row, 01x20, script generated")
+      (footprint "")
+      (fields
+        (field
+          (name "Description") "Generic connector, single row, 01x20, script generated")
+        (field
+          (name "Footprint"))
+        (field
+          (name "Datasheet"))
+        (field
+          (name "SKiDL Tag") "wRYxNM9FND")
+        (field
+          (name "SKiDL Line") "component_library.py:193"))
+      (libsource
+        (lib "Connector")
+        (part "Conn_01x20_Pin"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (tstamps "dcf74b1a-b032-5ec2-9759-69eeca45f409")))
+  (nets
+    (net
+      (code 1)
+      (name "+3.3V")
+      (class "Default")
+      (node
+        (ref "OLED_SSD1306")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "POT_EXPR")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "POT_MASTER")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "16")
+        (pintype "PASSIVE")))
+    (net
+      (code 2)
+      (name "+5V")
+      (class "Default")
+      (node
+        (ref "C23")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D11")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D12")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D13")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D14")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D15")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D16")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D17")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D18")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D1_1N4148")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D2_1N4148")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K1_G5V1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K2_G5V1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5_AP2112K")
+        (pin "1")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U5_AP2112K")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 3)
+      (name "ADC_VCOM")
+      (class "Default")
+      (node
+        (ref "C14")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C4")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C9")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_ADC")
+        (pin "4")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_ADC")
+        (pin "5")
+        (pintype "PASSIVE")))
+    (net
+      (code 4)
+      (name "ADC_VREF")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C2")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 5)
+      (name "DAC_BUF_JACK_OUT_L")
+      (class "Default")
+      (node
+        (ref "C15")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2_NE5532")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 6)
+      (name "DAC_BUF_JACK_OUT_R")
+      (class "Default")
+      (node
+        (ref "C17")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2_NE5532")
+        (pin "5")
+        (pintype "INPUT")))
+    (net
+      (code 7)
+      (name "DAC_VOUT_JACK_OUT_L")
+      (class "Default")
+      (node
+        (ref "C15")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_DAC")
+        (pin "6")
+        (pintype "PASSIVE")))
+    (net
+      (code 8)
+      (name "DAC_VOUT_JACK_OUT_R")
+      (class "Default")
+      (node
+        (ref "C17")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_DAC")
+        (pin "7")
+        (pintype "PASSIVE")))
+    (net
+      (code 9)
+      (name "GND_AUDIO")
+      (class "Default")
+      (node
+        (ref "C1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C11")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C12")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C13")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C21")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C22")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C4")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C6")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C7")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C8")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JACK_HP")
+        (pin "S")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K1_G5V1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K2_G5V1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R2")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R5")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_HP")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4_LT1054")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5_AP2112K")
+        (pin "2")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U_DAC")
+        (pin "12")
+        (pintype "PASSIVE")))
+    (net
+      (code 10)
+      (name "GND_CHASIS")
+      (class "Default")
+      (node
+        (ref "C10")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C16")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C18")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C5")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JACK_DC")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JACK_IN_L")
+        (pin "S")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JACK_IN_R")
+        (pin "S")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JACK_OUT_L")
+        (pin "S")
+        (pintype "PASSIVE"))
+      (node
+        (ref "JACK_OUT_R")
+        (pin "S")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q2_IRLML6401")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_IN_L")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_IN_R")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_OUT_L")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_OUT_R")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 11)
+      (name "GND_DIGITAL")
+      (class "Default")
+      (node
+        (ref "C23")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D11")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D12")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D13")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D14")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D15")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D16")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D17")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "D18")
+        (pin "3")
+        (pintype "POWER-IN"))
+      (node
+        (ref "OLED_SSD1306")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "POT_EXPR")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "POT_MASTER")
+        (pin "3")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q1_2N3904")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R14")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "14")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "15")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "6")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "8")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "9")
+        (pintype "PASSIVE")))
+    (net
+      (code 12)
+      (name "HP_JACK")
+      (class "Default")
+      (node
+        (ref "L7")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R11")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_HP")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 13)
+      (name "HP_MIX")
+      (class "Default")
+      (node
+        (ref "C19")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R10")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R9")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 14)
+      (name "IN_AC2_JACK_IN_L1")
+      (class "Default")
+      (node
+        (ref "R1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 15)
+      (name "IN_AC2_JACK_IN_R")
+      (class "Default")
+      (node
+        (ref "C10")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C11")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C12")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L4")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 16)
+      (name "IN_AC2_JACK_IN_R1")
+      (class "Default")
+      (node
+        (ref "R4")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 17)
+      (name "IN_AC_JACK_IN_L")
+      (class "Default")
+      (node
+        (ref "C5")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C6")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "C7")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L3")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 18)
+      (name "IN_DIV_JACK_IN_L")
+      (class "Default")
+      (node
+        (ref "C8")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R2")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 19)
+      (name "IN_DIV_JACK_IN_R")
+      (class "Default")
+      (node
+        (ref "C13")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R4")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R5")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "5")
+        (pintype "INPUT")))
+    (net
+      (code 20)
+      (name "N$1")
+      (class "Default")
+      (node
+        (ref "JACK_IN_L")
+        (pin "T")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_IN_L")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 21)
+      (name "N$10")
+      (class "Default")
+      (node
+        (ref "C20")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4_LT1054")
+        (pin "4")
+        (pintype "PASSIVE")))
+    (net
+      (code 22)
+      (name "N$11")
+      (class "Default")
+      (node
+        (ref "R12")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4_LT1054")
+        (pin "7")
+        (pintype "PASSIVE")))
+    (net
+      (code 23)
+      (name "N$12")
+      (class "Default")
+      (node
+        (ref "C21")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5_AP2112K")
+        (pin "4")
+        (pintype "NO-CONNECT")))
+    (net
+      (code 24)
+      (name "N$13")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "31")
+        (pintype "OUTPUT"))
+      (node
+        (ref "POT_MASTER")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R13")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 25)
+      (name "N$14")
+      (class "Default")
+      (node
+        (ref "Q1_2N3904")
+        (pin "2")
+        (pintype "INPUT"))
+      (node
+        (ref "R13")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 26)
+      (name "N$15")
+      (class "Default")
+      (node
+        (ref "D1_1N4148")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D2_1N4148")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K1_G5V1")
+        (pin "9")
+        (pintype "PASSIVE"))
+      (node
+        (ref "K2_G5V1")
+        (pin "9")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q1_2N3904")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 27)
+      (name "N$16")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "32")
+        (pintype "PASSIVE"))
+      (node
+        (ref "POT_EXPR")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R14")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U8_HEF4053BT")
+        (pin "10")
+        (pintype "PASSIVE")))
+    (net
+      (code 28)
+      (name "N$17")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "34")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "R15")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 29)
+      (name "N$18")
+      (class "Default")
+      (node
+        (ref "D11")
+        (pin "4")
+        (pintype "INPUT"))
+      (node
+        (ref "R15")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 30)
+      (name "N$19")
+      (class "Default")
+      (node
+        (ref "D11")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D12")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 31)
+      (name "N$2")
+      (class "Default")
+      (node
+        (ref "R3")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "2")
+        (pintype "INPUT")))
+    (net
+      (code 32)
+      (name "N$20")
+      (class "Default")
+      (node
+        (ref "D12")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D13")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 33)
+      (name "N$21")
+      (class "Default")
+      (node
+        (ref "D13")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D14")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 34)
+      (name "N$22")
+      (class "Default")
+      (node
+        (ref "D14")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D15")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 35)
+      (name "N$23")
+      (class "Default")
+      (node
+        (ref "D15")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D16")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 36)
+      (name "N$24")
+      (class "Default")
+      (node
+        (ref "D16")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D17")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 37)
+      (name "N$25")
+      (class "Default")
+      (node
+        (ref "D17")
+        (pin "2")
+        (pintype "OUTPUT"))
+      (node
+        (ref "D18")
+        (pin "4")
+        (pintype "INPUT")))
+    (net
+      (code 38)
+      (name "N$26")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "1")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "OLED_SSD1306")
+        (pin "3")
+        (pintype "PASSIVE")))
+    (net
+      (code 39)
+      (name "N$27")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "2")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "OLED_SSD1306")
+        (pin "4")
+        (pintype "PASSIVE")))
+    (net
+      (code 40)
+      (name "N$29")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "20")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U_ADC")
+        (pin "8")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_DAC")
+        (pin "15")
+        (pintype "PASSIVE")))
+    (net
+      (code 41)
+      (name "N$3")
+      (class "Default")
+      (node
+        (ref "JACK_IN_R")
+        (pin "T")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L4")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_IN_R")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 42)
+      (name "N$30")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "22")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U_ADC")
+        (pin "9")
+        (pintype "PASSIVE")))
+    (net
+      (code 43)
+      (name "N$31")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "19")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U_ADC")
+        (pin "10")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_DAC")
+        (pin "13")
+        (pintype "PASSIVE")))
+    (net
+      (code 44)
+      (name "N$32")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "27")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U_ADC")
+        (pin "11")
+        (pintype "PASSIVE")))
+    (net
+      (code 45)
+      (name "N$33")
+      (class "Default")
+      (node
+        (ref "MCU_RP2350")
+        (pin "21")
+        (pintype "BIDIRECTIONAL"))
+      (node
+        (ref "U_DAC")
+        (pin "14")
+        (pintype "PASSIVE")))
+    (net
+      (code 46)
+      (name "N$4")
+      (class "Default")
+      (node
+        (ref "R6")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "6")
+        (pintype "INPUT")))
+    (net
+      (code 47)
+      (name "N$5")
+      (class "Default")
+      (node
+        (ref "JACK_OUT_L")
+        (pin "T")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L5")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 48)
+      (name "N$6")
+      (class "Default")
+      (node
+        (ref "JACK_OUT_R")
+        (pin "T")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L6")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 49)
+      (name "N$7")
+      (class "Default")
+      (node
+        (ref "C19")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3_NJM4556A")
+        (pin "3")
+        (pintype "INPUT")))
+    (net
+      (code 50)
+      (name "N$8")
+      (class "Default")
+      (node
+        (ref "JACK_HP")
+        (pin "T")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L7")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 51)
+      (name "N$9")
+      (class "Default")
+      (node
+        (ref "C20")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4_LT1054")
+        (pin "2")
+        (pintype "PASSIVE")))
+    (net
+      (code 52)
+      (name "OUT_HP")
+      (class "Default")
+      (node
+        (ref "R11")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U3_NJM4556A")
+        (pin "1")
+        (pintype "OUTPUT"))
+      (node
+        (ref "U3_NJM4556A")
+        (pin "2")
+        (pintype "INPUT")))
+    (net
+      (code 53)
+      (name "OUT_JACK_JACK_OUT_L")
+      (class "Default")
+      (node
+        (ref "C16")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L5")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R7")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_OUT_L")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 54)
+      (name "OUT_JACK_JACK_OUT_R")
+      (class "Default")
+      (node
+        (ref "C18")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "L6")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R8")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "TVS_OUT_R")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 55)
+      (name "OUT_LINE_JACK_OUT_L")
+      (class "Default")
+      (node
+        (ref "R7")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R9")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2_NE5532")
+        (pin "1")
+        (pintype "OUTPUT"))
+      (node
+        (ref "U2_NE5532")
+        (pin "2")
+        (pintype "INPUT")))
+    (net
+      (code 56)
+      (name "OUT_LINE_JACK_OUT_R")
+      (class "Default")
+      (node
+        (ref "R10")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R8")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U2_NE5532")
+        (pin "6")
+        (pintype "INPUT"))
+      (node
+        (ref "U2_NE5532")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 57)
+      (name "OUT_PRE_JACK_IN_L")
+      (class "Default")
+      (node
+        (ref "C9")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R3")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "1")
+        (pintype "OUTPUT")))
+    (net
+      (code 58)
+      (name "OUT_PRE_JACK_IN_R")
+      (class "Default")
+      (node
+        (ref "C14")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R6")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "7")
+        (pintype "OUTPUT")))
+    (net
+      (code 59)
+      (name "VCC_12V")
+      (class "Default")
+      (node
+        (ref "JACK_DC")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "Q2_IRLML6401")
+        (pin "1")
+        (pintype "INPUT"))
+      (node
+        (ref "Q2_IRLML6401")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R12")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U1_TL072")
+        (pin "8")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U2_NE5532")
+        (pin "8")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U3_NJM4556A")
+        (pin "8")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4_LT1054")
+        (pin "8")
+        (pintype "PASSIVE")))
+    (net
+      (code 60)
+      (name "VCC_3V3_ANA")
+      (class "Default")
+      (node
+        (ref "C22")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U5_AP2112K")
+        (pin "5")
+        (pintype "POWER-OUT"))
+      (node
+        (ref "U_ADC")
+        (pin "6")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U_DAC")
+        (pin "17")
+        (pintype "PASSIVE")))
+    (net
+      (code 61)
+      (name "VEE_12V")
+      (class "Default")
+      (node
+        (ref "U1_TL072")
+        (pin "4")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U2_NE5532")
+        (pin "4")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U3_NJM4556A")
+        (pin "4")
+        (pintype "POWER-IN"))
+      (node
+        (ref "U4_LT1054")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "U4_LT1054")
+        (pin "5")
+        (pintype "PASSIVE")))))

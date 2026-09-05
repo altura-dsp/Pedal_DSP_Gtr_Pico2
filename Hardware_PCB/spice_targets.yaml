@@ -1,0 +1,98 @@
+# =============================================================================
+# spice_targets.yaml — 1_Pedal_DSP_GTR (Test-Driven Development Analógico)
+# =============================================================================
+# DOMINIO OBLIGATORIO: Touring Grade (rules/7 §7.0.3.3) — HARDWARE analógico.
+#   THD+N < 0.1 % @ 1 kHz · SNR > 95 dB(A) · Respuesta ±0.5 dB (20 Hz–20 kHz).
+# PROHIBIDO Studio Grade aquí (>105 dB / <0.05 %) — eso rige SOLO el DSP/código.
+#
+# Contrato del motor (tools/hw_spice_simulator.py + main_build.py:273):
+#   stage:        → OBLIGATORIO, selector de build_spice_stage (coincide con
+#                  {input_stage, output_stage, output_hp_stage, power_stage}).
+#   analysis:     → ac | transient (OBLIGATORIO).
+#   input_node:   → nodo del DUT donde el motor inyecta vstim.
+#   output_node:  → nodo del DUT donde el motor mide.
+#   thresholds:   → el motor SÓLO lee: cutoff_frequency_hz / attenuation_db_at_hz
+#                  / max_thd / max_voltage / min_voltage. Otras claves = ignoradas.
+# Stages y nodos definidos en wiring_logic.py build_spice_stage().
+# =============================================================================
+
+targets:
+
+  # --- ENTRADA: anti-aliasing Thévenin (R_th 3.58 kΩ ‖ C_alias 1 nF C0G) ---
+  # fc ≈ 1/(2π·3.58k·1nF) ≈ 44 kHz. Pasa-bajo 1 polo. Para guitarra (contenido <6 kHz)
+  # es sobrado; el target valida la topología documentada (no la idealidad anti-alias).
+  input_antialiasing:
+    stage: input_stage
+    analysis: ac
+    input_node: IN_RAW
+    output_node: IN_DIV
+    thresholds:
+      cutoff_frequency_hz: 44000
+      # cutoff_tolerance_pct: 30    # opcional (default 10 %)
+
+  # --- ENTRADA: acople DC wideband (C_in 10 µF ‖ 100 nF) — paso-alto subsónico ---
+  # A 0.1 Hz el acople debe bloquear firmemente (anti-Cero Alucinación: medimos
+  # atenuación subsónica, NO cutoff_frequency_hz — regla AUTO-CHECK).
+  input_lowcut_dc:
+    stage: input_stage
+    analysis: ac
+    input_node: IN_RAW
+    output_node: OUT_PRE
+    thresholds:
+      attenuation_db_at_hz: 0.1
+      attenuation_db_limit: -20.0
+
+  # --- SALIDA L: NE5532 buffer → THD Touring Grade @ 1 kHz ---
+  output_thd_line:
+    stage: output_stage
+    analysis: transient
+    input_node: DAC_VOUT
+    output_node: OUT_LINE
+    thresholds:
+      max_thd: 0.1                 # Touring Grade < 0.1 % @ 1 kHz
+
+  # --- SALIDA L: headroom (rails ±9 V reales; testbench ±12 V conservador) ---
+  output_headroom_line:
+    stage: output_stage
+    analysis: transient
+    input_node: DAC_VOUT
+    output_node: OUT_LINE
+    thresholds:
+      max_voltage: 3.0             # < 3 Vpp no satura con headroom ADC/DAC
+      min_voltage: -3.0
+
+  # --- AURICULARES: NJM4556A con carga 32 Ω → THD Touring Grade ---
+  output_thd_hp_32ohm:
+    stage: output_hp_stage
+    analysis: transient
+    input_node: HP_IN
+    output_node: OUT_HP
+    thresholds:
+      max_thd: 0.1                 # Touring Grade < 0.1 % @ 1 kHz con carga 32 Ω
+
+  # --- POWER: riel negativo generado por LT1054 ---
+  # Valida que el inversor entrega un riel negativo estable (~−Vinput). El testbench
+  # alimenta V+ del LT1054 con +12 V del header motor (conservador).
+  power_inverter_rail:
+    stage: power_stage
+    analysis: transient
+    input_node: VEE_PEDAL
+    output_node: VEE_PEDAL
+    thresholds:
+      max_voltage: -8.0            # riel negativo generado (ventana permisiva con pérdidas)
+      min_voltage: -13.0
+
+# =============================================================================
+# GAPS DOCUMENTADOS (🟨 — no bloquean, no se fuerzan PASS con nodos inventados)
+# =============================================================================
+# - Ripple / PSRR de riel (D.6): el motor inyecta vstim a masa en input_node → si
+#   input_node fuera "+12V", entraría en bucle con V_VCC DC (matriz singular). El
+#   testbench actual NO lo mide. # TODO (gap testbench motor): inyectar ripple en
+#   SERIE con V_VCC, no a masa.
+# - Frecuencia de oscilación del LT1054 (>35 kHz inaudible): no hay clave del motor
+#   para "osc_frequency". # TODO (gap DUT): añadir medida de FFT pico espectral en el
+#   riel VEE_PEDAL cuando el motor soporte análisis FFT sobre output_node.
+# - CMRR salida balanceada (D.5): N/A — este proyecto es NO balanceado (TS/TRS). La
+#   rama fría no aplica.
+# - SNR > 95 dB(A): el motor no expone clave SNR. Se infiere del THD+N si la etapa es
+#   lineal. # TODO (gap DUT): clave SNR en el simulador.
