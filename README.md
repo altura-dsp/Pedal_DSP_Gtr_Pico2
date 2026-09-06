@@ -4,6 +4,17 @@
 
 **Status:** First public release · **Target:** Raspberry Pi Pico 2 (RP2350) · **License:** [GPL-3.0](LICENSE)
 
+## ☕ Support this project
+
+Building and maintaining open DSP hardware takes real time, real components, and real love.
+If Altura DSP has been useful to you, consider supporting — crypto only, no borders:
+
+| Network | Address |
+|---------|---------|
+| ⚡ BTC Lightning | `AlturaDSP@coinos.io` |
+
+Lightning is the recommended option: zero fee, instant, works from any Lightning wallet.
+
 ## Build
 
 ```
